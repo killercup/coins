@@ -1,0 +1,20 @@
+{
+  "name": "coins",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Pascal Hertleif <killercup@gmail.com> (http://pascalhertleif.de)",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/highland": "^1.14.30",
+    "dotenv": "^4.0.0",
+    "highland": "^2.10.5",
+    "js-yaml": "^3.8.2",
+    "kraken-exchange-api": "^0.2.5",
+    "poloniex-api-node": "^1.0.1",
+    "ts-node": "^3.0.2",
+    "typescript": "^2.2.2"
+  }
+}
